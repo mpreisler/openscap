@@ -30,8 +30,11 @@
  * @{
  */
 
-#ifndef OSCAP_H_
-#define OSCAP_H_
+#pragma once
+
+#ifndef OPENSCAP_COMMON_OSCAP_H_
+#define OPENSCAP_COMMON_OSCAP_H_
+
 #include <stdbool.h>
 #include <wchar.h>
 

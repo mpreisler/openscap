@@ -22,8 +22,9 @@
  */
 
 #pragma once
-#ifndef OSCAP_TEXT_PRIV_H_
-#define OSCAP_TEXT_PRIV_H_
+
+#ifndef OPENSCAP_COMMON_TEXT_PRIV_H_
+#define OPENSCAP_COMMON_TEXT_PRIV_H_
 
 #include "public/oscap_text.h"
 #include "elements.h"

@@ -35,8 +35,9 @@
  */
 
 #pragma once
-#ifndef OSCAP_TEXT_H_
-#define OSCAP_TEXT_H_
+
+#ifndef OPENSCAP_COMMON_OSCAP_TEXT_H_
+#define OPENSCAP_COMMON_OSCAP_TEXT_H_
 
 #include <stdbool.h>
 
@@ -257,5 +258,5 @@ struct oscap_text *oscap_textlist_get_preferred_text(struct oscap_text_iterator 
 
 /** @} */
 
-#endif
 
+#endif

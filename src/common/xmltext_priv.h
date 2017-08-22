@@ -22,8 +22,9 @@
  */
 
 #pragma once
-#ifndef _OSCAP_XMLTEXT_PRIV_H
-#define _OSCAP_XMLTEXT_PRIV_H
+
+#ifndef OPENSCAP_COMMON_XMLTEXT_PRIV_H_
+#define OPENSCAP_COMMON_XMLTEXT_PRIV_H_
 
 #include "util.h"
 #include <libxml/xmlreader.h>

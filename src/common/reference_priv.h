@@ -20,11 +20,10 @@
  *       Lukas Kuklinek <lkuklinek@redhat.com>
  */
 
-
 #pragma once
-#ifndef OSCAP_REFERENCE_PRIV_H_
-#define OSCAP_REFERENCE_PRIV_H_
 
+#ifndef OPENSCAP_COMMON_REFERENCE_PRIV_H_
+#define OPENSCAP_COMMON_REFERENCE_PRIV_H_
 
 #include "util.h"
 #include "public/oscap_reference.h"
@@ -55,5 +54,4 @@ struct oscap_reference {
 xmlNode *oscap_reference_to_dom(struct oscap_reference *ref, xmlNode *parent, xmlDoc *doc, const char *elname);
 struct oscap_reference *oscap_reference_new_parse(xmlTextReaderPtr reader);
 
-#endif // OSCAP_REFERENCE_PRIV_H_
-
+#endif

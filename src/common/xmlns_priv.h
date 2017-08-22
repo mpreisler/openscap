@@ -22,8 +22,9 @@
  */
 
 #pragma once
-#ifndef _OSCAP_XMLNS_H
-#define _OSCAP_XMLNS_H
+
+#ifndef OPENSCAP_COMMON_XMLNS_PRIV_H_
+#define OPENSCAP_COMMON_XMLNS_PRIV_H_
 
 OSCAP_HIDDEN_START;
 

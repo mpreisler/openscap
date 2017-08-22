@@ -35,8 +35,9 @@
  */
 
 #pragma once
-#ifndef OSCAP_ALLOC_H
-#define OSCAP_ALLOC_H
+
+#ifndef OPENSCAP_COMMON_ALLOC_H_
+#define OPENSCAP_COMMON_ALLOC_H_
 
 #include <stdlib.h>
 #include "public/oscap.h"
@@ -64,6 +65,6 @@ OSCAP_DEPRECATED(void __oscap_free(void *p));
 #define  oscap_talloc(T) ((T *) malloc(sizeof(T)))
 /// @endcond
 
-#endif				/* OSCAP_ALLOC_H */
 /// @}
 /// @}
+#endif

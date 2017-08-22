@@ -22,8 +22,9 @@
  */
 
 #pragma once
-#ifndef _OSCAP_ERROR_H
-#define _OSCAP_ERROR_H
+
+#ifndef OPENSCAP_COMMON_ERROR_H_
+#define OPENSCAP_COMMON_ERROR_H_
 
 #include <errno.h>
 #include <libxml/xmlerror.h>
@@ -57,4 +58,4 @@ struct oscap_err_t {
  */
 void __oscap_seterr(const char *file, uint32_t line, const char *func, oscap_errfamily_t family, ...);
 
-#endif				/* _OSCAP_ERROR_H */
+#endif

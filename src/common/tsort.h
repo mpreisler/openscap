@@ -20,13 +20,14 @@
  *      Lukas Kuklinek <lkuklinek@redhat.com>
  */
 
-
 // topological sort
 
-#include "list.h"
+#pragma once
 
-#ifndef OSCAP_TSORT_H_
-#define OSCAP_TSORT_H_
+#ifndef OPENSCAP_COMMON_TSORT_H_
+#define OPENSCAP_COMMON_TSORT_H_
+
+#include "list.h"
 
 OSCAP_HIDDEN_START;
 
@@ -64,5 +65,5 @@ bool oscap_tsort(struct oscap_list *input, struct oscap_list **output, oscap_tso
 
 OSCAP_HIDDEN_END;
 
-#endif // OSCAP_TSORT_H_
 
+#endif

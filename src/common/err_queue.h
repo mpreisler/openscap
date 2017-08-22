@@ -19,8 +19,9 @@
  */
 
 #pragma once
-#ifndef _OSCAP_ERR_QUEUE_H
-#define _OSCAP_ERR_QUEUE_H
+
+#ifndef OPENSCAP_COMMON_ERR_QUEUE_H_
+#define OPENSCAP_COMMON_ERR_QUEUE_H_
 
 #include "util.h"
 #include "_error.h"

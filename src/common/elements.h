@@ -24,8 +24,10 @@
  *      Maros Barabas <mbarabas@redhat.com>
  */
 
-#ifndef OSCAP_ELEMENTS_H_
-#define OSCAP_ELEMENTS_H_
+#pragma once
+
+#ifndef OPENSCAP_COMMON_ELEMENTS_H_
+#define OPENSCAP_COMMON_ELEMENTS_H_
 
 #include <libxml/xmlreader.h>
 #include <libxml/xmlwriter.h>

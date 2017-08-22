@@ -19,8 +19,9 @@
  */
 
 #pragma once
-#ifndef OSCAP_DOWNLOAD_CB_H_
-#define OSCAP_DOWNLOAD_CB_H_
+
+#ifndef OPENSCAP_COMMON_OSCAP_DOWNLOAD_CB_H_
+#define OPENSCAP_COMMON_OSCAP_DOWNLOAD_CB_H_
 
 /**
  * Type of the function used to report progress of download.

@@ -18,8 +18,10 @@
  *
  */
 
-#ifndef OSCAP_XML_H_
-#define OSCAP_XML_H_
+#pragma once
+
+#ifndef OPENSCAP_COMMON_OSCAPXML_H_
+#define OPENSCAP_COMMON_OSCAPXML_H_
 
 #include "util.h"
 

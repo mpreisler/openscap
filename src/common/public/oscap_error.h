@@ -38,9 +38,11 @@
  * @endcode
  *
  */
+
 #pragma once
-#ifndef OSCAP_ERROR_H
-#define OSCAP_ERROR_H
+
+#ifndef OPENSCAP_COMMON_OSCAP_ERROR_H_
+#define OPENSCAP_COMMON_OSCAP_ERROR_H_
 
 #include <stdint.h>
 #include <stdbool.h>
@@ -94,4 +96,4 @@ char *oscap_err_get_full_error(void);
 
 /// @}
 /// @}
-#endif				/* OSCAP_ERROR_H */
+#endif

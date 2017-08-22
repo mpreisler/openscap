@@ -22,8 +22,9 @@
  */
 
 #pragma once
-#ifndef _OSCAP_XML_ITERATE_H
-#define _OSCAP_XML_ITERATE_H
+
+#ifndef OPENSCAP_COMMON_XML_ITERATE_H_
+#define OPENSCAP_COMMON_XML_ITERATE_H_
 
 #include "util.h"
 #include <libxml/tree.h>

@@ -20,8 +20,11 @@
  *      Jan Černý <jcerny@redhat.com>
  */
 
-#ifndef OSCAP_STRING_
-#define OSCAP_STRING_
+#pragma once
+
+#ifndef OPENSCAP_COMMON_OSCAP_STRING_H_
+#define OPENSCAP_COMMON_OSCAP_STRING_H_
+
 #include <stdlib.h>
 #include "util.h"
 

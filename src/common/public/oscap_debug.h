@@ -20,8 +20,10 @@
  *       Jan Černý <jcerny@redhat.com>
  */
 
-#ifndef OSCAP_DEBUG_H_
-#define OSCAP_DEBUG_H_
+#pragma once
+
+#ifndef OPENSCAP_COMMON_OSCAP_DEBUG_H_
+#define OPENSCAP_COMMON_OSCAP_DEBUG_H_
 
 typedef enum {
 	DBG_E = 1,

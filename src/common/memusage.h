@@ -1,5 +1,7 @@
-#ifndef MEMUSAGE_H
-#define MEMUSAGE_H
+#pragma once
+
+#ifndef OPENSCAP_COMMON_MEMUSAGE_H_
+#define OPENSCAP_COMMON_MEMUSAGE_H_
 
 #if defined(__linux__)
 # define MEMUSAGE_LINUX_PROC_STATUS "/proc/self/status"
@@ -31,4 +33,4 @@ struct sys_memusage {
 int oscap_proc_memusage(struct proc_memusage *mu);
 int oscap_sys_memusage(struct sys_memusage *mu);
 
-#endif /* MEMUSAGE_H */
+#endif

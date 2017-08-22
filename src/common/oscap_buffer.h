@@ -20,8 +20,11 @@
  *      Jan Černý <jcerny@redhat.com>
  */
 
-#ifndef OSCAP_BUFFER_H_
-#define OSCAP_BUFFER_H_
+#pragma once
+
+#ifndef OPENSCAP_COMMON_OSCAP_BUFFER_H_
+#define OPENSCAP_COMMON_OSCAP_BUFFER_H_
+
 #include "util.h"
 
 OSCAP_HIDDEN_START;

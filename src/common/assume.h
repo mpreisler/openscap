@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2009 Red Hat Inc., Durham, North Carolina.
  * All Rights Reserved.
@@ -22,8 +21,9 @@
  */
 
 #pragma once
-#ifndef ASSUME_H
-#define ASSUME_H
+
+#ifndef OPENSCAP_COMMON_ASSUME_H_
+#define OPENSCAP_COMMON_ASSUME_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -129,4 +129,4 @@
 #endif
 
 
-#endif /* ASSUME_H */
+#endif

@@ -20,9 +20,10 @@
  *      Lukas Kuklinek <lkuklinek@redhat.com>
  */
 
+#pragma once
 
-#ifndef OSCAP_UTIL_H_
-#define OSCAP_UTIL_H_
+#ifndef OPENSCAP_COMMON_UTIL_H_
+#define OPENSCAP_COMMON_UTIL_H_
 
 #include <stdbool.h>
 #include <assert.h>
@@ -427,4 +428,4 @@ char *oscap_expand_ipv6(const char *input);
 
 OSCAP_HIDDEN_END;
 
-#endif				/* OSCAP_UTIL_H_ */
+#endif

@@ -20,10 +20,10 @@
  *       Lukas Kuklinek <lkuklinek@redhat.com>
  */
 
-
 #pragma once
-#ifndef OSCAP_REFERENCE_H_
-#define OSCAP_REFERENCE_H_
+
+#ifndef OPENSCAP_COMMON_OSCAP_REFERENCE_H_
+#define OPENSCAP_COMMON_OSCAP_REFERENCE_H_
 
 /**
  * Dublin Core reference

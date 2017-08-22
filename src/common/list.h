@@ -25,8 +25,11 @@
  * @internal
  * @{
  */
-#ifndef OSCAP_LIST_
-#define OSCAP_LIST_
+
+#pragma once
+
+#ifndef OPENSCAP_COMMON_LIST_H_
+#define OPENSCAP_COMMON_LIST_H_
 
 #include <stdlib.h>
 #include <stdbool.h>

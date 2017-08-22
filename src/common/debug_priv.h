@@ -26,8 +26,9 @@
  */
 
 #pragma once
-#ifndef OSCAP_DEBUG_PRIV_H_
-#define OSCAP_DEBUG_PRIV_H_
+
+#ifndef OPENSCAP_COMMON_DEBUG_PRIV_H_
+#define OPENSCAP_COMMON_DEBUG_PRIV_H_
 
 #include <assert.h>
 #include <stdlib.h>

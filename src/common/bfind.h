@@ -22,8 +22,9 @@
  */
 
 #pragma once
-#ifndef BFIND_H
-#define BFIND_H
+
+#ifndef OPENSCAP_COMMON_BFIND_H_
+#define OPENSCAP_COMMON_BFIND_H_
 
 #include <stddef.h>
 #include <unistd.h>
@@ -32,4 +33,4 @@
 void *oscap_bfind(void *ptr, size_t nmemb, size_t size, void *key, int cmpfn(void *, void *));
 int32_t oscap_bfind_i(void *ptr, size_t nmemb, size_t size, void *key, int cmpfn(void *, void *), size_t *save);
 
-#endif				/* BFIND_H */
+#endif
