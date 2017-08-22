@@ -18,8 +18,10 @@
  *
  */
 
-#ifndef XCCDF_POLICY_RESOLVE_H_
-#define XCCDF_POLICY_RESOLVE_H_
+#pragma once
+
+#ifndef OPENSCAP_XCCDF_POLICY_RESOLVE_H_
+#define OPENSCAP_XCCDF_POLICY_RESOLVE_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>

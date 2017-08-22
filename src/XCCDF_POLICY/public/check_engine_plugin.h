@@ -28,8 +28,10 @@
  *
  */
 
-#ifndef OPENSCAP_CHECK_ENGINE_PLUGIN_H_
-#define OPENSCAP_CHECK_ENGINE_PLUGIN_H_
+#pragma once
+
+#ifndef OPENSCAP_XCCDF_POLICY_CHECK_ENGINE_PLUGIN_H_
+#define OPENSCAP_XCCDF_POLICY_CHECK_ENGINE_PLUGIN_H_
 
 #include "xccdf_policy.h"
 
@@ -77,4 +79,5 @@ const char * const *check_engine_plugin_get_known_plugins(void);
 
 /// @}
 /// @}
+
 #endif

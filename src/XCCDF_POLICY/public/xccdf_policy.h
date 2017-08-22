@@ -28,8 +28,10 @@
  * @author Dave Niemoller <david.niemoller@g2-inc.com>
  */
 
-#ifndef XCCDF_POLICY_H_
-#define XCCDF_POLICY_H_
+#pragma once
+
+#ifndef OPENSCAP_XCCDF_POLICY_H_
+#define OPENSCAP_XCCDF_POLICY_H_
 
 #include <xccdf_benchmark.h>
 #include <stdbool.h>
@@ -733,6 +735,5 @@ char* xccdf_policy_substitute(const char *text, struct xccdf_policy *policy);
 /**
  * @}
  */
+
 #endif
-
-

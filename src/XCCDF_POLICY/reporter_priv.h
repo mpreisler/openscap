@@ -22,8 +22,9 @@
  */
 
 #pragma once
-#ifndef _OSCAP_XCCDF_POLICY_REPORT_CB_PRIV_H
-#define _OSCAP_XCCDF_POLICY_REPORT_CB_PRIV_H
+
+#ifndef OPENSCAP_XCCDF_POLICY_REPORTER_PRIV_H_
+#define OPENSCAP_XCCDF_POLICY_REPORTER_PRIV_H_
 
 #include "common/util.h"
 #include "public/xccdf_policy.h"
