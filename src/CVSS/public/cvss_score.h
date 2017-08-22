@@ -31,9 +31,10 @@
  *
  */
 
+#pragma once
 
-#ifndef _CVSSCALC_H_
-#define _CVSSCALC_H_
+#ifndef OPENSCAP_CVSS_CVSS_SCORE_H_
+#define OPENSCAP_CVSS_CVSS_SCORE_H_
 
 #include <stdbool.h>
 #include <time.h>
@@ -413,4 +414,4 @@ bool cvss_metrics_set_availability_requirement(struct cvss_metrics* metrics, enu
 /** @} */
 
 /**@}*/
-#endif // _CVSSCALC_H_
+#endif

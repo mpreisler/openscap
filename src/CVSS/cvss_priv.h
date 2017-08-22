@@ -29,8 +29,10 @@
  *      Lukas Kuklinek <lkuklinek@redhat.com>
  */
 
-#ifndef CVSS_PRIV_H_
-#define CVSS_PRIV_H_
+#pragma once
+
+#ifndef OPENSCAP_CVSS_CVSS_PRIV_H_
+#define OPENSCAP_CVSS_CVSS_PRIV_H_
 
 #include <stdlib.h>
 #include <libxml/xmlreader.h>
