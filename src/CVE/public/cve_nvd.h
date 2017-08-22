@@ -31,8 +31,10 @@
  *      Tomas Heinrich <theinric@redhat.com>
  */
 
-#ifndef _CVE_H_
-#define _CVE_H_
+#pragma once
+
+#ifndef OPENSCAP_CVE_CVE_NVD_H_
+#define OPENSCAP_CVE_CVE_NVD_H_
 
 #include <stdbool.h>
 #include <time.h>
@@ -683,4 +685,4 @@ bool cve_model_set_pub_date(struct cve_model *obj, const char *newval);
 
 /**@}*/
 
-#endif				/* _CVE_H_ */
+#endif

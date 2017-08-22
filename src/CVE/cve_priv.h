@@ -30,8 +30,10 @@
  *      Maros Barabas <mbarabas@redhat.com>
  */
 
-#ifndef CVE_PRIV_H_
-#define CVE_PRIV_H_
+#pragma once
+
+#ifndef OPENSCAP_CVE_CVE_PRIV_H_
+#define OPENSCAP_CVE_CVE_PRIV_H_
 
 #include <libxml/xmlreader.h>
 #include <libxml/xmlwriter.h>
