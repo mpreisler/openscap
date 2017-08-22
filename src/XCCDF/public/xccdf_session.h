@@ -29,8 +29,10 @@
  *
  */
 
-#ifndef XCCDF_SESSION_H_
-#define XCCDF_SESSION_H_
+#pragma once
+
+#ifndef OPENSCAP_XCCDF_SESSION_H_
+#define OPENSCAP_XCCDF_SESSION_H_
 
 #include "xccdf_policy.h"
 #include "oscap_download_cb.h"
@@ -575,4 +577,5 @@ int xccdf_session_add_report_from_source(struct xccdf_session *session, struct o
 
 /// @}
 /// @}
+
 #endif

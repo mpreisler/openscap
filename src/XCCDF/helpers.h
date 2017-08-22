@@ -20,8 +20,10 @@
  *      Lukas Kuklinek <lkuklinek@redhat.com>
  */
 
-#ifndef XCCDF_HELPERS_H_
-#define XCCDF_HELPERS_H_
+#pragma once
+
+#ifndef OPENSCAP_XCCDF_HELPERS_H_
+#define OPENSCAP_XCCDF_HELPERS_H_
 
 #include <assert.h>
 

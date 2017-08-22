@@ -20,8 +20,10 @@
  *      Lukas Kuklinek <lkuklinek@redhat.com>
  */
 
-#ifndef XCCDF_ITEM_
-#define XCCDF_ITEM_
+#pragma once
+
+#ifndef OPENSCAP_XCCDF_ITEM_H_
+#define OPENSCAP_XCCDF_ITEM_H_
 
 #include <assert.h>
 

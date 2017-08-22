@@ -21,8 +21,10 @@
  *      Josh Adams <jadams@tresys.com>
  */
 
-#ifndef XCCDF_IMPL
-#define XCCDF_IMPL
+#pragma once
+
+#ifndef OPENSCAP_XCCDF_IMPL_H_
+#define OPENSCAP_XCCDF_IMPL_H_
 
 #include <public/xccdf_benchmark.h>
 #include <common/util.h>

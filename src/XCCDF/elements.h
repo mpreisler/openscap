@@ -20,8 +20,10 @@
  *      Lukas Kuklinek <lkuklinek@redhat.com>
  */
 
-#ifndef XCCDF_ELEMENTS_H_
-#define XCCDF_ELEMENTS_H_
+#pragma once
+
+#ifndef OPENSCAP_XCCDF_ELEMENTS_H_
+#define OPENSCAP_XCCDF_ELEMENTS_H_
 
 #include <stdbool.h>
 #include <time.h>

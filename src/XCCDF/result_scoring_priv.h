@@ -17,8 +17,11 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
  */
-#ifndef OSCAP_XCCDF_RESULT_SCORING_H
-#define OSCAP_XCCDF_RESULT_SCORING_H
+
+#pragma once
+
+#ifndef OPENSCAP_XCCDF_RESULT_SCORING_PRIV_H_
+#define OPENSCAP_XCCDF_RESULT_SCORING_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -43,4 +46,5 @@ OSCAP_HIDDEN_START;
 struct xccdf_score *xccdf_result_calculate_score(struct xccdf_result *test_result, struct xccdf_item *benchmark, const char *score_system);
 
 OSCAP_HIDDEN_END;
+
 #endif

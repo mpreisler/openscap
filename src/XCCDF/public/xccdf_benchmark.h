@@ -31,8 +31,10 @@
  *      Josh Adams <jadams@tresys.com>
  */
 
-#ifndef XCCDF_H_
-#define XCCDF_H_
+#pragma once
+
+#ifndef OPENSCAP_XCCDF_BENCHMARK_H_
+#define OPENSCAP_XCCDF_BENCHMARK_H_
 
 #include <stdbool.h>
 #include <time.h>
