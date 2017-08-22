@@ -18,8 +18,11 @@
  *
  *
  */
-#ifndef OSCAP_SOURCE_VALIDATE_H
-#define OSCAP_SOURCE_VALIDATE_H
+
+#pragma once
+
+#ifndef OPENSCAP_SOURCE_VALIDATE_PRIV_H_
+#define OPENSCAP_SOURCE_VALIDATE_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -44,4 +47,5 @@ struct oscap_schema_table_entry {
 int oscap_source_validate_priv(struct oscap_source *source, oscap_document_type_t doc_type, const char *version, xml_reporter reporter, void *user);
 
 OSCAP_HIDDEN_END;
+
 #endif

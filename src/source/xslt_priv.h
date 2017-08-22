@@ -18,8 +18,11 @@
  *
  *
  */
-#ifndef OSCAP_SOURCE_XSLT_H
-#define OSCAP_SOURCE_XSLT_H
+
+#pragma once
+
+#ifndef OPENSCAP_SOURCE_XSLT_PRIV_H_
+#define OPENSCAP_SOURCE_XSLT_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -57,4 +60,5 @@ int oscap_source_apply_xslt_path(struct oscap_source *source, const char *xsltfi
 char *oscap_source_apply_xslt_path_mem(struct oscap_source *source, const char *xsltfile, const char **params, const char *path_to_xslt);
 
 OSCAP_HIDDEN_END;
+
 #endif

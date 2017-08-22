@@ -19,8 +19,11 @@
  * Author:
  *     Šimon Lukašík
  */
-#ifndef OSCAP_SOURCE_PRIV_H
-#define OSCAP_SOURCE_PRIV_H
+
+#pragma once
+
+#ifndef OPENSCAP_OSCAP_SOURCE_PRIV_H_
+#define OPENSCAP_OSCAP_SOURCE_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>

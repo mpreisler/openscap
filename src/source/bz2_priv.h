@@ -18,8 +18,11 @@
  *
  *
  */
-#ifndef OSCAP_SOURCE_BZIP2_H
-#define OSCAP_SOURCE_BZIP2_H
+
+#pragma once
+
+#ifndef OPENSCAP_SOURCE_BZ2_PRIV_H_
+#define OPENSCAP_SOURCE_BZ2_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -69,4 +72,4 @@ bool bz2_memory_is_bzip(const char* memory, const size_t size);
 
 OSCAP_HIDDEN_END;
 
-#endif // OSCAP_SOURCE_BZIP2_H
+#endif

@@ -18,8 +18,11 @@
  *
  *
  */
-#ifndef OSCAP_SOURCE_SCHEMATRON_H
-#define OSCAP_SOURCE_SCHEMATRON_H
+
+#pragma once
+
+#ifndef OPENSCAP_SOURCE_SCHEMATRON_PRIV_H_
+#define OPENSCAP_SOURCE_SCHEMATRON_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -34,4 +37,5 @@ OSCAP_HIDDEN_START;
 int oscap_source_validate_schematron_priv(struct oscap_source *source, oscap_document_type_t scap_type, const char *version, const char *outfile);
 
 OSCAP_HIDDEN_END;
+
 #endif

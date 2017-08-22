@@ -18,8 +18,11 @@
  *
  *
  */
-#ifndef OSCAP_SOURCE_DOC_TYPE_H
-#define OSCAP_SOURCE_DOC_TYPE_H
+
+#pragma once
+
+#ifndef OPENSCAP_SOURCE_DOC_TYPE_PRIV_H_
+#define OPENSCAP_SOURCE_DOC_TYPE_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -42,4 +45,5 @@ OSCAP_HIDDEN_START;
 int oscap_determine_document_type_reader(xmlTextReader *reader, oscap_document_type_t *doc_type);
 
 OSCAP_HIDDEN_END;
+
 #endif
