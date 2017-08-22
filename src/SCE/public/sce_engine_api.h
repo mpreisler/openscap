@@ -20,8 +20,10 @@
  *      "Martin Preisler" <mpreisle@redhat.com>
  */
 
-#ifndef SCE_ENGINE_API_H_
-#define SCE_ENGINE_API_H
+#pragma once
+
+#ifndef OPENSCAP_SCE_ENGINE_API_H_
+#define OPENSCAP_SCE_ENGINE_API_H_
 
 #include <xccdf_benchmark.h>
 #include <xccdf_policy.h>
