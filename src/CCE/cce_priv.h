@@ -28,14 +28,17 @@
  *      Riley C. Porter <Riley.Porter@g2-inc.com>
  */
 
+#pragma once
+
+#ifndef OPENSCAP_CCE_PRIV_H_
+#define OPENSCAP_CCE_PRIV_H_
+
 #include <libxml/xmlreader.h>
 
 #include "cce.h"
 #include "../common/list.h"
 #include "../common/util.h"
 
-#ifndef _CCE_PRIV_H
-#define _CCE_PRIV_H
 
 OSCAP_HIDDEN_START;
 

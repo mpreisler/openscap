@@ -28,11 +28,14 @@
  *      Riley C. Porter <Riley.Porter@g2-inc.com>
  */
 
+#pragma once
+
+#ifndef OPENSCAP_CCE_H_
+#define OPENSCAP_CCE_H_
+
 #include <stdbool.h>
 #include "oscap.h"
 
-#ifndef _CCE_H
-#define _CCE_H
 
 /**
  * @struct cce
