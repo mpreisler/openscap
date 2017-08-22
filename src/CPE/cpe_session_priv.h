@@ -18,8 +18,11 @@
  *
  *
  */
-#ifndef OSCAP_CPE_CPE_SESSION_PRIV_H
-#define OSCAP_CPE_CPE_SESSION_PRIV_H
+
+#pragma once
+
+#ifndef OPENSCAP_CPE_CPE_SESSION_PRIV_H_
+#define OPENSCAP_CPE_CPE_SESSION_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>

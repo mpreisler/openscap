@@ -34,8 +34,10 @@
  *      Šimon Lukašík
  */
 
-#ifndef CPEDICT_H_
-#define CPEDICT_H_
+#pragma once
+
+#ifndef OPENSCAP_CPE_CPE_DICT_H_
+#define OPENSCAP_CPE_CPE_DICT_H_
 
 #include "oscap.h"
 #include "cpe_name.h"
@@ -967,4 +969,4 @@ const char* cpe_dict_model_get_origin_file(const struct cpe_dict_model* dict);
 
 /** @} */
 
-#endif				/* _CPEDICT_H_ */
+#endif

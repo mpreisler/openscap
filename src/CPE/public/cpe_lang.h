@@ -33,8 +33,10 @@
  *      Maros Barabas <mbarabas@redhat.com>
  */
 
-#ifndef CPELANG_H_
-#define CPELANG_H_
+#pragma once
+
+#ifndef OPENSCAP_CPE_CPE_LANG_H_
+#define OPENSCAP_CPE_CPE_LANG_H_
 
 #include <stdlib.h>
 
@@ -416,4 +418,4 @@ void cpe_lang_model_export(const struct cpe_lang_model *spec, const char *file);
 
 /**@}*/
 
-#endif				/* _CPELANG_H_ */
+#endif

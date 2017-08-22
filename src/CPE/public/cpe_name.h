@@ -34,8 +34,10 @@
  *      Lukas Kuklinek <lkuklinek@redhat.com>
  */
 
-#ifndef _CPEURI_H_
-#define _CPEURI_H_
+#pragma once
+
+#ifndef OPENSCAP_CPE_CPE_NAME_H_
+#define OPENSCAP_CPE_CPE_NAME_H_
 
 #include <stdbool.h>
 #include <stdlib.h>
@@ -370,4 +372,4 @@ typedef bool *(*cpe_check_fn) (const char*, const char*, const char*, void*);
  */
 typedef bool *(*cpe_dict_fn) (const struct cpe_name*, void*);
 
-#endif				/* _CPEURI_H_ */
+#endif

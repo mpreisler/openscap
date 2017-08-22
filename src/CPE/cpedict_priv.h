@@ -27,8 +27,10 @@
  *      Maros Barabas <mbarabas@redhat.com>
  */
 
-#ifndef CPEDICT_PRIV_H_
-#define CPEDICT_PRIV_H_
+#pragma once
+
+#ifndef OPENSCAP_CPE_CPEDICT_PRIV_H_
+#define OPENSCAP_CPE_CPEDICT_PRIV_H_
 
 #include <libxml/xmlreader.h>
 #include <libxml/xmlwriter.h>

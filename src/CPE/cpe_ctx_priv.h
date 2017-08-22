@@ -21,8 +21,9 @@
  */
 
 #pragma once
-#ifndef _OSCAP_CPE_CTX_PRIV_H
-#define _OSCAP_CPE_CTX_PRIV_H
+
+#ifndef OPENSCAP_CPE_CPE_CTX_PRIV_H_
+#define OPENSCAP_CPE_CPE_CTX_PRIV_H_
 
 #include "common/util.h"
 

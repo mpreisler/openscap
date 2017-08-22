@@ -20,8 +20,10 @@
  * 	Šimon Lukašík
  */
 
-#ifndef _OSCAP_CPEDICT_EXT_PRIV_H_
-#define _OSCAP_CPEDICT_EXT_PRIV_H_
+#pragma once
+
+#ifndef OPENSCAP_CPE_CPEDICT_EXT_PRIV_H_
+#define OPENSCAP_CPE_CPEDICT_EXT_PRIV_H_
 
 #include <libxml/xmlreader.h>
 #include <libxml/xmlwriter.h>
