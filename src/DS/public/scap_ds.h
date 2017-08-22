@@ -29,8 +29,10 @@
  *      Martin Preisler <mpreisle@redhat.com>
  */
 
-#ifndef OPENSCAP_DS_H
-#define OPENSCAP_DS_H
+#pragma once
+
+#ifndef OPENSCAP_DS_SCAP_DS_H_
+#define OPENSCAP_DS_SCAP_DS_H_
 
 #include "oscap.h"
 

@@ -18,8 +18,11 @@
  *
  *
  */
-#ifndef OSCAP_DS_SDS_INDEX_PRIV_H
-#define OSCAP_DS_SDS_INDEX_PRIV_H
+
+#pragma once
+
+#ifndef OPENSCAP_DS_SDS_INDEX_PRIV_H_
+#define OPENSCAP_DS_SDS_INDEX_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -35,4 +38,5 @@ OSCAP_HIDDEN_START;
 struct ds_sds_index* ds_sds_index_parse(xmlTextReaderPtr reader);
 
 OSCAP_HIDDEN_END;
+
 #endif

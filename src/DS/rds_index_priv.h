@@ -18,8 +18,11 @@
  *
  *
  */
-#ifndef OSCAP_DS_RDS_INDEX_PRIV_H
-#define OSCAP_DS_RDS_INDEX_PRIV_H
+
+#pragma once
+
+#ifndef OPENSCAP_DS_RDS_INDEX_PRIV_H_
+#define OPENSCAP_DS_RDS_INDEX_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -41,4 +44,5 @@ struct rds_report_index *rds_report_index_parse(xmlTextReaderPtr reader);
 struct rds_report_request_index *rds_report_request_index_parse(xmlTextReaderPtr reader);
 
 OSCAP_HIDDEN_END;
+
 #endif

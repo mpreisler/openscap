@@ -20,8 +20,11 @@
  *   Šimon Lukašík
  *
  */
-#ifndef OSCAP_DS_RDS_SESSION_PRIV_H
-#define OSCAP_DS_RDS_SESSION_PRIV_H
+
+#pragma once
+
+#ifndef OPENSCAP_DS_RDS_SESSION_PRIV_H_
+#define OPENSCAP_DS_RDS_SESSION_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -39,4 +42,5 @@ const char *ds_rds_session_get_target_dir(struct ds_rds_session *session);
 int ds_rds_session_register_component_source(struct ds_rds_session *session, const char *content_id, struct oscap_source *component);
 
 OSCAP_HIDDEN_END;
+
 #endif

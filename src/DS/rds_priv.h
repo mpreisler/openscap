@@ -18,8 +18,11 @@
  *
  *
  */
-#ifndef DS_RDS_PRIV_H
-#define DS_RDS_PRIV_H
+
+#pragma once
+
+#ifndef OPENSCAP_DS_RDS_PRIV_H_
+#define OPENSCAP_DS_RDS_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -41,4 +44,5 @@ struct oscap_source *ds_rds_create_source(struct oscap_source *sds_source, struc
 xmlNodePtr ds_rds_create_report(xmlDocPtr target_doc, xmlNodePtr reports_node, xmlDocPtr source_doc, const char* report_id);
 
 OSCAP_HIDDEN_END;
+
 #endif

@@ -18,8 +18,11 @@
  *
  *
  */
-#ifndef DS_SDS_PRIV_H
-#define DS_SDS_PRIV_H
+
+#pragma once
+
+#ifndef OPENSCAP_DS_SDS_PRIV_H_
+#define OPENSCAP_DS_SDS_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -43,4 +46,5 @@ int ds_sds_dump_component_ref(const xmlNodePtr component_ref, struct ds_sds_sess
 int ds_sds_dump_component_ref_as(const xmlNodePtr component_ref, struct ds_sds_session *session, const char *sub_dir, const char *relative_filepath);
 
 OSCAP_HIDDEN_END;
+
 #endif

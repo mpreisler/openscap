@@ -19,8 +19,11 @@
  * Author:
  *     Šimon Lukašík
  */
-#ifndef DS_SDS_SESSION_H
-#define DS_SDS_SESSION_H
+
+#pragma once
+
+#ifndef OPENSCAP_DS_SDS_SESSION_H_
+#define OPENSCAP_DS_SDS_SESSION_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>

@@ -18,8 +18,11 @@
  *
  *
  */
-#ifndef OSCAP_DS_SDS_SESSION_PRIV_H
-#define OSCAP_DS_SDS_SESSION_PRIV_H
+
+#pragma once
+
+#ifndef OPENSCAP_DS_SDS_SESSION_PRIV_H_
+#define OPENSCAP_DS_SDS_SESSION_PRIV_H_
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -43,5 +46,7 @@ bool ds_sds_session_fetch_remote_resources(struct ds_sds_session *session);
 download_progress_calllback_t ds_sds_session_remote_resources_progress(struct ds_sds_session *session);
 
 void download_progress_empty_calllback(bool warning, const char * format, ...);
+
 OSCAP_HIDDEN_END;
+
 #endif

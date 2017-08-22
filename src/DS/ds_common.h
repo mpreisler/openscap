@@ -20,8 +20,10 @@
  *      Martin Preisler <mpreisle@redhat.com>
  */
 
-#ifndef OPENSCAP_DS_COMMON_H
-#define OPENSCAP_DS_COMMON_H
+#pragma once
+
+#ifndef OPENSCAP_DS_COMMON_H_
+#define OPENSCAP_DS_COMMON_H_
 
 #include "common/list.h"
 #include "common/util.h"
